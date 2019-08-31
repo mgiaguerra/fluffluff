@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<build>
+<plugin>
+    <groupId>com.microsoft.azure</groupId>
+    <artifactId>azure-webapp-maven-plugin</artifactId>
+	 <version>3.0</version>
+    <configuration>
+        <authentication>
+			<deploymentDirectory>${application-home}/deploy</deploymentDirectory>
+           <serverId>azure-auth</serverId>
+        </authentication>
+        ...
+    </configuration>
+</plugin>
+</build>
