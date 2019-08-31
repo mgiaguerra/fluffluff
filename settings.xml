@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<server>
+   <id>bf0efcd7-99d8-4512-95ea-117aeea4790d</id>
+   <configuration>
+       <client>bf0efcd7-99d8-4512-95ea-117aeea4790d</client>
+       <tenant>1af6919c-9047-43da-b06f-fcfd895a24d3</tenant>
+       <key>a314f3be-910a-49a0-b7cc-d4f28afbab64</key>
+       <environment>AZURE</environment>
+   </configuration>
+</server>
+<settings>
+  <profiles>
+    <profile>
+      <id>inject-application-home</id>
+      <properties>
+        <application-home>/path/to/application</application-home>
+      </properties>
+    </profile>
+  </profiles>
+ 
+  <activeProfiles>
+    <activeProfile>inject-application-home</activeProfile>
+  </activeProfiles>
+</settings>
